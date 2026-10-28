@@ -1,0 +1,15 @@
+{
+  "properties": [
+    { "identifier": "zhuodu",     "name": "浊度",   "functionType": "u", "accessMode": "r",  "desc": "浊度，单位NTU",   "dataType": { "type": "float", "specs": { "min": "0", "max": "1000", "unit": "NTU", "step": "0.1" } } },
+    { "identifier": "tds_value",  "name": "水质TDS","functionType": "u", "accessMode": "r",  "desc": "水质TDS，单位ppm","dataType": { "type": "float", "specs": { "min": "0", "max": "2000", "unit": "ppm", "step": "0.1" } } },
+    { "identifier": "water_temp", "name": "水温",   "functionType": "u", "accessMode": "r",  "desc": "水温，单位摄氏度", "dataType": { "type": "float", "specs": { "min": "-10", "max": "60", "unit": "℃", "step": "0.1" } } },
+    { "identifier": "PH",         "name": "PH值",   "functionType": "u", "accessMode": "r",  "desc": "PH值",           "dataType": { "type": "float", "specs": { "min": "0", "max": "14", "unit": "", "step": "0.1" } } },
+    { "identifier": "led",        "name": "照明灯", "functionType": "u", "accessMode": "rw", "desc": "照明灯开关",      "dataType": { "type": "bool", "specs": { "true": "开", "false": "关" } } },
+    { "identifier": "drain_pump", "name": "抽水泵", "functionType": "u", "accessMode": "rw", "desc": "抽水泵（PA6/继电器2）","dataType": { "type": "bool", "specs": { "true": "开", "false": "关" } } },
+    { "identifier": "fill_pump",  "name": "放水泵", "functionType": "u", "accessMode": "rw", "desc": "放水泵（PA5/继电器1）","dataType": { "type": "bool", "specs": { "true": "开", "false": "关" } } },
+    { "identifier": "oxygen",     "name": "增氧泵", "functionType": "u", "accessMode": "rw", "desc": "增氧泵（PA7/继电器3）","dataType": { "type": "bool", "specs": { "true": "开", "false": "关" } } },
+    { "identifier": "servo",      "name": "舵机角度","functionType": "u", "accessMode": "rw", "desc": "舵机角度0-90度",  "dataType": { "type": "int32", "specs": { "min": "0", "max": "90", "unit": "°", "step": "10" } } }
+  ],
+  "events": [],
+  "services": []
+}

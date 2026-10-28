@@ -1,0 +1,24 @@
+﻿# Keil 编译产物
+Objects/
+Listings/
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.lnp
+*.map
+*.dep
+*.build_log.htm
+*.htm
+*.sct
+*.sct.Bak
+
+# Keil 个人界面配置（含本机路径）
+*.uvguix.*
+*.uvguix
+
+# 备份与临时文件
+*.bak
+*.Bak
+*~
