@@ -5,7 +5,7 @@
 #include "OLED.h"
 #include <string.h>
 #include <stdio.h>
-#define ESP8266_WIFI_INFO		"AT+CWJAP=\"Ciallo\",\"666666zy\"\r\n"
+#define ESP8266_WIFI_INFO		"AT+CWJAP=\"YOUR_WIFI_SSID\",\"YOUR_WIFI_PASSWORD\"\r\n"
 
 unsigned char esp8266_buf[512];
 unsigned short esp8266_cnt = 0, esp8266_cntPre = 0;

@@ -49,7 +49,7 @@
 
 #define PROID			"202d6T7CdI"
 
-#define ACCESS_KEY		"c1FqRzNnc0tncWlYQTNKVkh5M0VQOFUxbTUwejFvYVI="
+#define ACCESS_KEY		"YOUR_DEVICE_ACCESS_KEY"
 
 #define DEVICE_NAME		"smart_fish_tank"
 
